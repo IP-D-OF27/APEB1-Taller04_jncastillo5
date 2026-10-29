@@ -21,10 +21,19 @@ public class Ejercicio05 {
         System.out.println("El valor del ratón: ");
         ratón = tcl.nextDouble();
         valorComputadora = (cpu + teclado + pantalla + ratón); 
-        System.out.println("El valor de la computadora es: $ " + valorComputadora);
+        System.out.println("El valor de la computadora es: $" + valorComputadora);
     }
 }
 /***
  * EVIDENCIA DEL RUN:
+ * El valor del cpu: 
+200
+El valor del teclado: 
+40
+El valor de la pantalla: 
+120
+El valor del rat�n: 
+25
+El valor de la computadora es: $ 385.0
  * Pegue aquí la evidencia de la ejecución del .java
  */
